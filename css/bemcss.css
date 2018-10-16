@@ -1,0 +1,27 @@
+/* Block */
+
+.notice {
+    width: 600px;
+    height: 100px;
+    background-color: #fff;
+    border: black solid;
+    border-width: 1px 50px 1px 1px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+
+}
+
+.notice__text--strong {
+    font-weight:bold;
+}
+
+.notice--warning {
+    border-color: #FFA500;
+}
+
+.notice--success {
+    border-color: #039111;
+}
